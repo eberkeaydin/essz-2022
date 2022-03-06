@@ -57,23 +57,19 @@ h1, h2, h3, h4, h5, h6 {
 #logo{
  width: 15em;
  height: auto;
- display: inline-block;
- margin-bottom: 20px;
+ max-height: 50px;
 }
 
 .essz-main-logo{
- width: 20em;
+ width: 15em;
  height: auto;
  display: inline-block;
- margin-top: 40px;
+ margin-top: 20px;
  
 }
 
 
- .pull-left{
-   
-   margin-bottom: 20px;
- }
+
 
 #slogan{
   color: aliceblue;
@@ -179,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 
-#header #logo h1 {
+/* #header #logo h1 {
   font-size: 36px;
   margin: 0;
   padding: 6px 0;
@@ -188,10 +184,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-}
-
-#header #logo h1 span {
-  color: #d29e02;
 }
 
 #header #logo h1 a,
@@ -203,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
