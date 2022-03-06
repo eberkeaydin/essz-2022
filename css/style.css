@@ -55,26 +55,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #logo{
- width: 5em;
+ width: 15em;
  height: auto;
  display: inline-block;
- 
+ margin-bottom: 20px;
 }
 
 .essz-main-logo{
- width: 10em;
+ width: 20em;
  height: auto;
  display: inline-block;
- margin-top: 55px;
+ margin-top: 40px;
  
 }
 
-.savtek-main-logo{
-  width: auto;
-  height: auto;
-  display: inline-block;
-  
- }
 
  .pull-left{
    
