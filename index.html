@@ -48,7 +48,7 @@
           <li><a href="#schedule">Program</a></li>
           <li><a href="#speakers">Konuşmacılar</a></li>
           <li><a href="#gallery">Galeri</a></li>
-          <li><a href="#venue">Sponsorlar</a></li>
+          <li><a href="#sponsors">Sponsorlar</a></li>
           <li><a href="https://www.egesavtek.com/">Ege Savtek</a></li>
           <li><a href="#contact">İletişim</a></li>
     
@@ -620,29 +620,6 @@
 
     </section>
 
-    <!--==========================
-      Subscribe Section
-    ============================-->
-    <!-- <section id="subscribe">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h2>Newsletter</h2>
-          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
-        </div>
-
-        <form method="POST" action="#">
-          <div class="form-row justify-content-center">
-            <div class="col-auto">
-              <input type="text" class="form-control" placeholder="Enter your Email">
-            </div>
-            <div class="col-auto">
-              <button type="submit">Subscribe</button>
-            </div>
-          </div>
-        </form>
-
-      </div>
-    </section> -->
 
     <!--==========================
       Contact Section
@@ -805,15 +782,15 @@
   <script>
     function sendEmail(){
       Email.send({
-      Host : "smtp.google.com",
-      Username : "e.berkeaydin@gmail.com",
-      Password : "eba.cerkez7742",
-      To : 'e.berkeaydin@gmail.com',
+      SecureToken: "4ac6e661-5011-4354-a87c-1a9b20509b0b",
+      To : 'uslanyaramazov@gmail.com',
       From : document.getElementById("email").value,
-      Subject : "This is the subject",
-      Body : "And this is the body"
+      Subject : document.getElementById("email").value,
+      Body : "Ad-Soyad : " + document.getElementById("name").value
+      + "<br> E-posta : " + document.getElementById("email").value
+      + "<br> Mesaj : " + document.getElementById("message").value
       }).then(
-      message => alert(message)
+      message => alert("Mesajınız tarafımıza gönderilmiştir. Teşekkür ederiz !")
       );
     }
 
