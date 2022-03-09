@@ -781,16 +781,30 @@
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
     function sendEmail(){
+      // Email.send({
+      // SecureToken: "4ac6e661-5011-4354-a87c-1a9b20509b0b",
+      // To : 'uslanyaramazov@gmail.com',
+      // From : document.getElementById("email").value,
+      // Subject : document.getElementById("email").value,
+      // Body : "Ad-Soyad : " + document.getElementById("name").value
+      // + "<br> E-posta : " + document.getElementById("email").value
+      // + "<br> Mesaj : " + document.getElementById("message").value
+      // }).then(
+      // message => alert("Mesajınız tarafımıza gönderilmiştir. Teşekkür ederiz !")
+      // );
       Email.send({
-      SecureToken: "4ac6e661-5011-4354-a87c-1a9b20509b0b",
-      To : 'uslanyaramazov@gmail.com',
-      From : document.getElementById("email").value,
-      Subject : document.getElementById("email").value,
-      Body : "Ad-Soyad : " + document.getElementById("name").value
-      + "<br> E-posta : " + document.getElementById("email").value
-      + "<br> Mesaj : " + document.getElementById("message").value
+
+        Host: "smtp.google.com",
+        Username: "e.berkeaydin@gmail.com",
+        Password: "eba.cerkez7742",
+        To: 'e.berkeaydin@gmail.com',
+        From: document.getElementById("email").value,
+        Subject: document.getElementById("subject").value,
+        Body: "Ad-Soyad : " + document.getElementById("name").value
+        + " <br> E-posta : " + document.getElementById("email").value
+        + " <br> İleti : " + document.getElementById("message").value
       }).then(
-      message => alert("Mesajınız tarafımıza gönderilmiştir. Teşekkür ederiz !")
+        message => alert("Mesajınız tarafımıza iletilmiştir. Teşekkürler! ")
       );
     }
 
