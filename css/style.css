@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .essz-main-logo{
- width: 15em;
+ width: 10em;
  height: auto;
  display: inline-block;
  margin-top: 20px;
@@ -520,8 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 56px;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 500;
 }
 
 #intro h1 span {
