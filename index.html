@@ -1,492 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ESSZ 2022</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-<head>
-  <meta charset="utf-8">
-  <title>ESSZ 2022</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+    <!-- Favicons -->
+    <link href="img/esszico.ico" rel="icon" />
+    <!-- <link href="img/apple-favicon.png" rel="apple-touch-icon"> -->
 
-  <!-- Favicons -->
-  <link href="img/esszico.ico" rel="icon">
-  <!-- <link href="img/apple-favicon.png" rel="apple-touch-icon"> -->
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/venobox/venobox.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/venobox/venobox.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!--==========================
+  <body>
+    <!--==========================
     Header
   ============================-->
-  <header id="header">
-    <div class="container">
+    <header id="header">
+      <div class="container">
+        <div class="pull-left">
+          <a href="#intro"
+            ><img id="logo" src="./img/SAVTEK_W.svg" alt="essz-logo"
+          /></a>
+        </div>
 
-      <div class="pull-left">
-        <a href="#intro"><img id="logo" src="./img/SAVTEK_W.svg" alt="essz-logo"></a>
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li><a href="#intro">Anasayfa</a></li>
+            <li><a href="#register">Hemen Kaydol</a></li>
+            <li><a href="#schedule">Program</a></li>
+            <li><a href="#speakers">Katılımcılar</a></li>
+            <li><a href="#gallery">Galeri</a></li>
+            <li><a href="#sponsors">Sponsorlar</a></li>
+            <li><a href="https://www.egesavtek.com/">Ege Savtek</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
       </div>
+    </header>
+    <!-- #header -->
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="#intro">Anasayfa</a></li>
-          <li><a href="#about">Zirve Hakkında</a></li>
-          <li><a href="#schedule">Program</a></li>
-          <li><a href="#speakers">Konuşmacılar</a></li>
-          <li><a href="#gallery">Galeri</a></li>
-          <li><a href="#sponsors">Sponsorlar</a></li>
-          <li><a href="https://www.egesavtek.com/">Ege Savtek</a></li>
-          <li><a href="#contact">İletişim</a></li>
-    
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-
-  <!--==========================
+    <!--==========================
     Intro Section
   ============================-->
 
-  <section id="intro">
-    <div class="row">
-      <div class="intro-container wow fadeIn col-xs-12 mb-20">
-        <img src="./img/ESSZ Logo White.svg" class="mx-auto img-fluid essz-main-logo" alt="essz-logo">
-        <h1 class="mb-4 pb-0 header_slogan">EGE SAVUNMA SANAYİ ZİRVESİ</h1>
-        <h2 class="mb-4 pb-o header_slogan" id="slogan">Savunma ve Teknoloji Ege'nin Zirvesinde</h2>
-        <p class="mb-4 pb-0">24 Mayıs, İzmir</p>
-        <a href="#about" class="about-btn scrollto">Zirve Hakkında</a>
-        
+    <section id="intro">
+      <div class="row">
+        <div class="intro-container wow fadeIn col-xs-12 mb-20">
+          <img
+            src="./img/ESSZ Logo White.svg"
+            class="mx-auto img-fluid essz-main-logo"
+            alt="essz-logo"
+          />
+          <h1 class="mb-4 pb-0 header_slogan">EGE SAVUNMA SANAYİ ZİRVESİ</h1>
+          <h2 class="mb-4 pb-o header_slogan" id="slogan">
+            Savunma ve Teknoloji Ege'nin Zirvesinde
+          </h2>
+          <p class="mb-4 pb-0">24 Mayıs, İzmir</p>
+
+          <!--Chronometer-->
+          <p id="demo"></p>
+          <!--Chronometer-->
+
+          <a href="#about" class="about-btn scrollto">Zirve Hakkında</a>
+        </div>
       </div>
-    </div>
-  </section>
-  
+    </section>
 
-  <main id="main">
-
-
-    <!--==========================
+    <main id="main">
+      <!--==========================
       About Section
     ============================-->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2>Ege Savunma Sanayi Zirvesi Hakkında</h2>
-            <p>Ege Savunma Teknolojileri Topluluğu olarak 3 yıldır Türkiye'deki savunma sanayi 
-              ekosistemine kurumsal ve teknik alanlarda katkıda bulunmaya çalışıyoruz. ESSZ,
-              savunma sanayisi ve teknolojilerini Ege bölgesinde gündeme getirme misyonu ile 
-              çalışmalarına devam ediyor. ESSZ, bu misyon doğrultusunda Türk Savunma Sanayisinin 
-              önde gelen şirketlerini bilgi ve deneyimlerini kamu ile paylaşmaya davet ediyor. 
-            </p>
-          </div>
-          <div class="col-lg-3">
-            <h3>Nerede?</h3>
-            <p>Ege Üniversitesi Prof. Dr. Yusuf Vardar MÖTBE Konferans Salonu <br> Merkez Kampüs, Erzene Mahallesi <br> Bornova, İzmir</p>
-          </div>
-          <div class="col-lg-3">
-            <h3>Ne zaman?</h3>
-            <p>08:30 - 18:00<br>24 Mayıs 2022</p>
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>Ege Savunma Sanayi Zirvesi Hakkında</h2>
+              <p>
+                Ege Savunma Teknolojileri Topluluğu olarak 3 yıldır Türkiye'deki
+                savunma sanayi ekosistemine kurumsal ve teknik alanlarda katkıda
+                bulunmaya çalışıyoruz. ESSZ, savunma sanayisi ve teknolojilerini
+                Ege bölgesinde gündeme getirme misyonu ile çalışmalarına devam
+                ediyor. ESSZ, bu misyon doğrultusunda Türk Savunma Sanayisinin
+                önde gelen şirketlerini bilgi ve deneyimlerini kamu ile
+                paylaşmaya davet ediyor.
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <h3>Nerede?</h3>
+              <p>
+                Ege Üniversitesi Prof. Dr. Yusuf Vardar MÖTBE Konferans Salonu
+                <br />
+                Merkez Kampüs, Erzene Mahallesi <br />
+                Bornova, İzmir
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <h3>Ne zaman?</h3>
+              <p>11:00 - 17:00<br />24 Mayıs 2022</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!--==========================
+      <section id="register">
+        <div class="container wow fadeInUp mt-5">
+          <div class="section-header">
+            <h2>Hemen Kaydol</h2>
+            <p>
+              <br />
+              ESSZ programına katılabilmek ve zirve sonunda katılımcılara dağıtılacak olan sertifikalardan edinebilmek için katılım formunu doldurmanız gerekmektedir.
+            </p>
+            <h3 class="mt-3">Katılım formu bağlantısı için <a href="https://forms.gle/7NLXaFr6ZbRGYhr29" target="_blank">TIKLAYINIZ.</a> </h3>
+          </div>
+        </div>
+      </section>
+
+      <!--==========================
       Schedule Section
     ============================-->
-    <section id="schedule" class="section-with-bg">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h2>ESSZ Programı</h2>
-          <p>TUSAŞ&TEI Paneli konferansın ardından gerçekleşecektir. <br> (Konuşmacılarımız netleştikçe sitemiz güncellenecektir.)
-          </p>
-        </div>
-
-        <ul class="nav nav-tabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Konferans Programı</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">TUSAŞ&TEI Paneli   </a>
-          </li>
-        </ul>
-
-        <h3 class="sub-heading">Belirlenen konuşma saatleri, öngörülemeyen aksaklıklar veya teknik problemler sebebiyle organizasyon sorumluları tarafından yeniden düzenlenebilir. 
-          Gelişmeler, zirveden sorumlu arkadaşlarımız tarafından anlık olarak sizlere duyurulacaktır.
-        </h3>
-
-        <div class="tab-content row justify-content-center">
-
-          <!-- Schdule Day 1 -->
-          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>09:00</time></div>
-              <div class="col-md-10">
-                <h4>Kurumsal Kokteyl</h4>
-                <p>ESSZ 2022 Konferans Programı çay, kahve, meyve suyu, tatlı ve tuzlu kurabiye ikramlarımız ile başlayacaktır.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/5.jpg" alt="Brenden Legros">
-                </div>
-                <h4>Konu Başlığı <span>Konuşmacı</span></h4>
-                <p>Bağlı Şirket | Konuşmacının ele alacağı konunun ön açıklaması</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/6.jpg" alt="Hubert Hirthe">
-                </div>
-                <h4>Konu Başlığı <span>Konuşmacı</span></h4>
-                <p>Bağlı Şirket | Konuşmacının ele alacağı konunun ön açıklaması</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/7.jpg" alt="Cole Emmerich">
-                </div>
-                <h4>Konu Başlığı <span>Konuşmacı</span></h4>
-                <p>Bağlı Şirket | Konuşmacının ele alacağı konunun ön açıklaması</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>13:00</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/4.jpg" alt="Jack Christiansen">
-                </div>
-                <h4>Konu Başlığı <span>Konuşmacı</span></h4>
-                <p>Bağlı Şirket | Konuşmacının ele alacağı konunun ön açıklaması</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>14:00 </time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/9.jpg" alt="Alejandrin Littel">
-                </div>
-                <h4>Konu Başlığı <span>Konuşmacı</span></h4>
-                <p>Bağlı Şirket | Konuşmacının ele alacağı konunun ön açıklaması</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>15:00</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/8.jpg" alt="Willow Trantow">
-                </div>
-                <h4>Konu Başlığı <span>Konuşmacı</span></h4>
-                <p>Bağlı Şirket | Konuşmacının ele alacağı konunun ön açıklaması</p>
-              </div>
-            </div>
-
+      <section id="schedule" class="section-with-bg">
+        <div class="container wow fadeInUp">
+          <div class="section-header">
+            <h2>ESSZ Programı</h2>
+            <p>
+              <br />
+              Zirve katılımcıları, katılım formunu doldurduktan sonra etkinlik salonundaki diledikleri yere oturabilirler.  
+            </p>
           </div>
-          <!-- End Schdule Day 1 -->
 
-          <!-- Schdule Day 2 -->
-          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="#day-1"
+                role="tab"
+                data-toggle="tab"
+                >Konferans Programı</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#day-2" role="tab" data-toggle="tab"
+                >Fuaye Alanı & Standlar
+              </a>
+            </li>
+          </ul>
 
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>16:00 - 17:00</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/7.jpg" alt="Brenden Legros">
+          <h3 class="sub-heading">
+            Belirlenen konuşma saatleri, öngörülemeyen aksaklıklar veya teknik
+            problemler sebebiyle organizasyon sorumluları tarafından yeniden
+            düzenlenebilir. Gelişmeler, zirveden sorumlu arkadaşlarımız
+            tarafından anlık olarak sizlere duyurulacaktır.
+          </h3>
+
+          <div class="tab-content row justify-content-center">
+            <!-- Schdule Day 1 -->
+            <div
+              role="tabpanel"
+              class="col-lg-9 tab-pane fade show active"
+              id="day-1"
+            >
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>11:00 - 11:40</time></div>
+                <div class="col-md-10">
+                  <h4>Kapı Açılışı</h4>
+                  <p>
+                    ESSZ 2022 Konferans Programı, Ege Üniversitesi Rektörü Prof. Dr. Necdet Budak'ın konuşması ile başlayacaktır.
+                  </p>
                 </div>
-                <h4>Konu Başlığı <span>Konuşmacı</span></h4>
-                <p>Bağlı Şirket | Konuşmacının ele alacağı konunun ön açıklaması</p>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>12:00 - 12:50</time></div>
+                <div class="col-md-10">
+                  <div class="speaker">
+                    <img src="img/ssb-logo.png" alt="ssb-logo" />
+                  </div>
+                  <h4>T.C. Cumhurbaşkanlığı Savunma Sanayi Başkanlığı</h4>
+                  
+                </div>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>12:50 - 13:50</time></div>
+                <div class="col-md-10">
+                  <h4>Network Molası</h4>
+                  <p>
+                    Öğle arasında katılımcılara yeni network fırsatları sunuyoruz. Bunun yanı sıra çay, kahve ve tatlı-tuzlu kurabiye ikramlarımız molalarda sizlere sunulacaktır.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>13:50 - 14:40</time></div>
+                <div class="col-md-10">
+                  <div class="speaker">
+                    <img src="img/aselsan-logo.png" alt="aselsan-logo" />
+                  </div>
+                  <h4>ASELSAN</h4>
+                  <p>
+                  Lider Mühendis Soner Malkoç, online olarak etkinliğe katılım gösterecek.
+                </p>
+                </div>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>15:00 - 15:50</time></div>
+                <div class="col-md-10">
+                  <div class="speaker">
+                    <img src="img/tai-logo.jpeg" alt="tai-logo" />
+                  </div>
+                  <h4>Türk Havacılık ve Uzay Sanayi</h4>
+            
+                </div>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>16:10 - 17:00</time></div>
+                <div class="col-md-10">
+                  <div class="speaker">
+                    <img src="img/jandarma-logo.png" alt="jandarma-logo" />
+                  </div>
+                  <h4>Bornova Jandarma Komando Tugay Komutanlığı</h4>
+                  
+                </div>
+              </div>
+
+              <!-- <div class="row schedule-item">
+                <div class="col-md-2"><time>14:00 </time></div>
+                <div class="col-md-10">
+                  <div class="speaker">
+                    <img src="img/speakers/9.jpg" alt="Alejandrin Littel" />
+                  </div>
+                  <h4>Konu Başlığı <span>Konuşmacı</span></h4>
+                  <p>
+                    Bağlı Şirket | Konuşmacının ele alacağı konunun ön
+                    açıklaması
+                  </p>
+                </div>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>15:00</time></div>
+                <div class="col-md-10">
+                  <div class="speaker">
+                    <img src="img/speakers/8.jpg" alt="Willow Trantow" />
+                  </div>
+                  <h4>Konu Başlığı <span>Konuşmacı</span></h4>
+                  <p>
+                    Bağlı Şirket | Konuşmacının ele alacağı konunun ön
+                    açıklaması
+                  </p>
+                </div>
+              </div> -->
+            </div>
+            <!-- End Schdule Day 1 -->
+
+            <!-- Schdule Fuaye Alanı -->
+            <div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-2">
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>Fuaye Alanı - Gün Boyu</time></div>
+                <div class="col-md-10">
+                  <div class="speaker">
+                    <img src="img/ssb-logo.png" alt="Brenden Legros" />
+                  </div>
+                  <h4>Savunma Sanayi Başkanlığı Standı </h4>
+                  <p>
+                    Zirvemiz, lider savunma sanayi organizatörü SSB'yi fuaye alanında sizlerle buluşturuyor. SSB standında bilgi ve eşantiyon alabilir, staj imkanı yakalayabilirsin.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>Fuaye Alanı - Gün Boyu</time></div>
+                <div class="col-md-10">
+                  <div class="speaker">
+                    <img src="img/vizyoner-genc-logo.png" alt="vizyoner-genc-logo" />
+                  </div>
+                  <h4>Vizyoner Genç Standı</h4>
+                  <p>
+                    Savunma Sanayi Akademi programı Vizyoner Genç zirvemizde bizlerle olacak. Şirket standına uğrayarak savunma sanayinde kariyer üzerine eşsiz bilgilere erişebilirsin.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>Fuaye Alanı - Gün Boyu</time></div>
+                <div class="col-md-10">
+                  <div class="speaker">
+                    <img src="img/bmc-logo.png" alt="bmc-logo" />
+                  </div>
+                  <h4>BMC Standı</h4>
+                  <p>
+                    Ege Bölgesi'ndeki lider savunma sanayi & otomotiv şirketi BMC'nin standına uğrayarak bilgi ve eşantiyon alabilir, staj imkanı yakalayabilirsin.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-2"><time>Sergi Alanı - Gün Boyu</time></div>
+                <div class="col-md-10">
+                  <div class="speaker">
+                    <img src="img/jandarma-logo.png" alt="jandarma-logo" />
+                  </div>
+                  <h4>Bornova Jandarma Tugay Komutanlığı Standı</h4>
+                  <p>
+                    Mehmetçiğimizi temsil eden tugay komutanlığı gün boyu Kirpi ve Vuran zırhlı araçlarını, silah ve teknolojilerini çadırlarda ve standlarda bizlere sunacak.   
+                  </p>
+                </div>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>16:00 - 17:00</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/4.jpg" alt="Hubert Hirthe">
-                </div>
-                <h4>Konu Başlığı <span>Konuşmacı</span></h4>
-                <p>Bağlı Şirket | Konuşmacının ele alacağı konunun ön açıklaması</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>16:00 - 17:00</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/3.jpg" alt="Cole Emmerich">
-                </div>
-                <h4>Konu Başlığı <span>Konuşmacı</span></h4>
-                <p>Bağlı Şirket | Konuşmacının ele alacağı konunun ön açıklaması</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>16:00 - 17:00</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/6.jpg" alt="Jack Christiansen">
-                </div>
-                <h4>Konu Başlığı <span>Konuşmacı</span></h4>
-                <p>Bağlı Şirket | Konuşmacının ele alacağı konunun ön açıklaması</p>
-              </div>
-            </div>
-
+            <!-- End Schdule Day 2 -->
           </div>
-          <!-- End Schdule Day 2 -->
-
-         
-
         </div>
+      </section>
 
-      </div>
-
-    </section>
-
-    <!--==========================
+      <!--==========================
       Speakers Section
     ============================-->
-    <section id="speakers" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2>Konuşmacılar</h2>
-          <p>Detaylı konuşmacı bilgisi için konuşmacı ismine tıklayabilirsiniz.</p>
+      <section id="speakers" class="wow fadeInUp">
+        <div class="container">
+          <div class="section-header">
+            <h2>Katılımcılar</h2>
+            <p>
+              Detaylı katılımcı bilgisi için katılımcı üzerine tıklayabilirsiniz.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/companies/aselsan.jpg"
+                  alt="Speaker 1"
+                  class="img-fluid company-images"
+                />
+                <div class="details">
+                  <h3><a href="https://www.aselsan.com/" target="_blank">ASELSAN</a></h3>
+                  <!-- <p><a href="https://www.aselsan.com.tr/">ASELSAN</a></p> -->
+                  <div class="social">
+                    <a href="https://www.aselsan.com/" target="_blank"
+                      ><i class="fa fa-google"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/companies/tusas.jpeg"
+                  alt="Speaker 2"
+                  class="img-fluid company-images"
+                />
+                <div class="details">
+                  <h3><a href="https://www.tusas.com/" target="_blank">TUSAŞ</a></h3>
+                  <!-- <p><a href="#">STM</a></p> -->
+                  <div class="social">
+                    <a href="https://www.tusas.com/" target="_blank"
+                      ><i class="fa fa-google"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/companies/bmc.jpg"
+                  alt="Speaker 3"
+                  class="img-fluid company-images"
+                />
+                <div class="details">
+                  <h3><a href="https://www.bmc.com.tr/" target="_blank">BMC</a></h3>
+                  <!-- <p>ROKETSAN</p> -->
+                  <div class="social">
+                    <a href="https://www.bmc.com.tr/" target="_blank"
+                      ><i class="fa fa-google"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/companies/ssb-bina.jpg"
+                  alt="Speaker 4"
+                  class="img-fluid company-images"
+                />
+                <div class="details">
+                  <h3><a href="https://www.ssb.gov.tr/" target="_blank">Savunma Sanayi Başkanlığı</a></h3>
+                  <!-- <p>BAYKAR</p> -->
+                  <div class="social">
+                    <a href="https://www.ssb.gov.tr/" target="_blank"
+                      ><i class="fa fa-google"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/companies/vizyoner-featured.jpg"
+                  alt="Speaker 5"
+                  class="img-fluid company-images"
+                />
+                <div class="details">
+                  <h3><a href="https://www.vizyonergenc.com/" target="_blank">Vizyoner Genç</a></h3>
+                  <!-- <p>HAVELSAN</p> -->
+                  <div class="social">
+                    <a href="https://www.vizyonergenc.com/" target="_blank"
+                      ><i class="fa fa-google"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/companies/bornova-jandarma.jpg"
+                  alt="Speaker 6"
+                  class="img-fluid company-images"
+                />
+                <div class="details">
+                  <h3><a href="https://www.jandarma.gov.tr/" target="_blank">Bornova Jandarma Komando Tugay Komutanlığı</a></h3>
+                  <!-- <p>BMC</p> -->
+                  <div class="social">
+                    <a href="https://www.jandarma.gov.tr/" target="_blank"
+                      ><i class="fa fa-google"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+           
+          </div>
         </div>
+      </section>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/companies/aselsan.jpg" alt="Speaker 1" class="img-fluid company-images">
-              <div class="details">
-                <h3><a href="https://www.linkedin.com/">Konuşmacı</a></h3>
-                <p><a href="https://www.aselsan.com.tr/">ASELSAN</a></p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/companies/stm.jpg" alt="Speaker 2" class="img-fluid company-images">
-              <div class="details">
-                <h3><a href="https://www.linkedin.com/">Konuşmacı</a></h3>
-                <p><a href="#">STM</a></p>         
-                <div class="social">
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/companies/roketsan.jpg" alt="Speaker 3" class="img-fluid company-images">
-              <div class="details">
-                <h3><a href="https://www.linkedin.com/">Konuşmacı</a></h3>
-                <p>ROKETSAN</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/companies/baykar.jpg" alt="Speaker 4" class="img-fluid company-images">
-              <div class="details">
-                <h3><a href="https://www.linkedin.com/">Konuşmacı</a></h3>
-                <p>BAYKAR</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/companies/havelsan.jpeg" alt="Speaker 5" class="img-fluid company-images">
-              <div class="details">
-                <h3><a href="https://www.linkedin.com/">Konuşmacı</a></h3>
-                <p>HAVELSAN</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/companies/bmc.jpg" alt="Speaker 6" class="img-fluid company-images">
-              <div class="details">
-                <h3><a href="https://www.linkedin.com/">Konuşmacı</a></h3>
-                <p>BMC</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/companies/tusas.jpeg" alt="Speaker 7" class="img-fluid company-images">
-              <div class="details">
-                <h3><a href="https://www.linkedin.com/">Konuşmacı</a></h3>
-                <p>TUSAŞ</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/companies/tusas.jpeg" alt="Speaker 8" class="img-fluid company-images">
-              <div class="details">
-                <h3><a href="https://www.linkedin.com/">Konuşmacı</a></h3>
-                <p>TUSAŞ</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/companies/tei.jpg" alt="Speaker 9" class="img-fluid company-images">
-              <div class="details">
-                <h3><a href="https://www.linkedin.com/">Konuşmacı</a></h3>
-                <p>TEI</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-        </div>
-      </div>
-
-    </section>
-
-    <!--==========================
+      <!--==========================
       Gallery Section
     ============================-->
-    <section id="gallery" class="wow fadeInUp">
+      <section id="gallery" class="wow fadeInUp">
+        <div class="container">
+          <div class="section-header">
+            <h2>Galeri</h2>
+            <p>Topluluk Galerisi</p>
+          </div>
+        </div>
 
-      <div class="container">
-        <div class="section-header">
-          <h2>Galeri</h2>
-          <p>Topluluk Galerisi</p>
-        </div>  
-      </div>
+        <div class="owl-carousel gallery-carousel">
+          <a
+            href="img/gallery/1.jpg"
+            class="venobox"
+            data-gall="gallery-carousel"
+            ><img class="gallery-photos" src="img/gallery/1.jpg" alt=""
+          /></a>
+          <a
+            href="img/gallery/2.jpg"
+            class="venobox"
+            data-gall="gallery-carousel"
+            ><img class="gallery-photos" src="img/gallery/2.jpg" alt=""
+          /></a>
+          <a
+            href="img/gallery/3.jpg"
+            class="venobox"
+            data-gall="gallery-carousel"
+            ><img class="gallery-photos" src="img/gallery/3.jpg" alt=""
+          /></a>
+          <a
+            href="img/gallery/4.jpg"
+            class="venobox"
+            data-gall="gallery-carousel"
+            ><img class="gallery-photos" src="img/gallery/4.jpg" alt=""
+          /></a>
+          <a
+            href="img/gallery/5.jpg"
+            class="venobox"
+            data-gall="gallery-carousel"
+            ><img class="gallery-photos" src="img/gallery/5.jpg" alt=""
+          /></a>
+          <a
+            href="img/gallery/6.jpg"
+            class="venobox"
+            data-gall="gallery-carousel"
+            ><img class="gallery-photos" src="img/gallery/6.jpg" alt=""
+          /></a>
+          <a
+            href="img/gallery/7.jpg"
+            class="venobox"
+            data-gall="gallery-carousel"
+            ><img class="gallery-photos" src="img/gallery/7.jpg" alt=""
+          /></a>
+          <a
+            href="img/gallery/8.jpg"
+            class="venobox"
+            data-gall="gallery-carousel"
+            ><img class="gallery-photos" src="img/gallery/8.jpg" alt=""
+          /></a>
+        </div>
+      </section>
 
-      <div class="owl-carousel gallery-carousel">
-        <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img class="gallery-photos" src="img/gallery/1.jpg" alt=""></a>
-        <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img class="gallery-photos" src="img/gallery/2.jpg" alt=""></a>
-        <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img class="gallery-photos" src="img/gallery/3.jpg" alt=""></a>
-        <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img class="gallery-photos" src="img/gallery/4.jpg" alt=""></a>
-        <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img class="gallery-photos" src="img/gallery/5.jpg" alt=""></a>
-        <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img class="gallery-photos" src="img/gallery/6.jpg" alt=""></a>
-        <a href="img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img class="gallery-photos" src="img/gallery/7.jpg" alt=""></a>
-        <a href="img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img class="gallery-photos" src="img/gallery/8.jpg" alt=""></a>
-      </div>
-
-    </section>
-
-    <!--==========================
+      <!--==========================
       Venue Section
     ============================-->
-    <section id="venue" class="wow fadeInUp">
-
-      <div class="container">
-        <div class="section-header">
-          <h2>Zirve Mekanı : Prof. Dr. Yusuf Vardar MÖTBE Konferans Salonu</h2>
-          <p>Ege Üniversitesi Merkez Kampüs</p>
+      <section id="venue" class="wow fadeInUp">
+        <div class="container">
+          <div class="section-header">
+            <h2>
+              Zirve Mekanı : Prof. Dr. Yusuf Vardar MÖTBE Konferans Salonu
+            </h2>
+            <p>Ege Üniversitesi Merkez Kampüs</p>
+          </div>
         </div>
-      </div>
 
-      <div class="container-fluid venue-gallery-container">
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/motbe/2.jpeg" class="venobox" data-gall="venue-gallery">
-                <img src="img/motbe/2.jpeg" alt="" class="img-fluid">
-              </a>
+        <div class="container-fluid venue-gallery-container">
+          <div class="row no-gutters">
+            <div class="col-lg-3 col-md-4">
+              <div class="venue-gallery">
+                <a
+                  href="img/motbe/2.jpeg"
+                  class="venobox"
+                  data-gall="venue-gallery"
+                >
+                  <img src="img/motbe/2.jpeg" alt="" class="img-fluid" />
+                </a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/motbe/4.jpeg" class="venobox" data-gall="venue-gallery">
-                <img src="img/motbe/4.jpeg" alt="" class="img-fluid">
-              </a>
+            <div class="col-lg-3 col-md-4">
+              <div class="venue-gallery">
+                <a
+                  href="img/motbe/4.jpeg"
+                  class="venobox"
+                  data-gall="venue-gallery"
+                >
+                  <img src="img/motbe/4.jpeg" alt="" class="img-fluid" />
+                </a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/motbe/3.jpeg" class="venobox" data-gall="venue-gallery">
-                <img src="img/motbe/3.jpeg" alt="" class="img-fluid">
-              </a>
+            <div class="col-lg-3 col-md-4">
+              <div class="venue-gallery">
+                <a
+                  href="img/motbe/3.jpeg"
+                  class="venobox"
+                  data-gall="venue-gallery"
+                >
+                  <img src="img/motbe/3.jpeg" alt="" class="img-fluid" />
+                </a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/motbe/5.jpeg" class="venobox" data-gall="venue-gallery">
-                <img src="img/motbe/5.jpeg" alt="" class="img-fluid">
-              </a>
+            <div class="col-lg-3 col-md-4">
+              <div class="venue-gallery">
+                <a
+                  href="img/motbe/5.jpeg"
+                  class="venobox"
+                  data-gall="venue-gallery"
+                >
+                  <img src="img/motbe/5.jpeg" alt="" class="img-fluid" />
+                </a>
+              </div>
             </div>
-          </div>
 
-          <!-- <div class="container-fluid">
+            <!-- <div class="container-fluid">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1562.1473644293048!2d27.231488364570918!3d38.457756540103176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b97d2cffffffff%3A0xc4055836446e5da5!2sE%C3%9C%20Prof.%20Dr.%20Yusuf%20Vardar%20-M%C3%96TBE-%20K%C3%BClt%C3%BCr%20Merkezi!5e0!3m2!1str!2str!4v1646498999990!5m2!1str!2str" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div> -->
-
-          
-
+          </div>
         </div>
-      </div>
+      </section>
 
-    </section>
-
-    
-
-    <!--==========================
+      <!--==========================
       Sponsors Section
     ============================-->
-    <!-- <section id="sponsors" class="section-with-bg wow fadeInUp">
+      <section id="sponsors" class="section-with-bg wow fadeInUp">
 
       <div class="container">
         <div class="section-header">
@@ -546,279 +657,398 @@
         </div>
       </div>
 
-    </section> -->
-
-   
-    <!--==========================
-      F.A.Q Section
-    ============================-->
-    <section id="faq" class="wow fadeInUp">
-
-      <div class="container">
-
-        <div class="section-header">
-          <h2>Sıklıkla Sorulan Sorular </h2>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-              <ul id="faq-list">
-
-                <li>
-                  <a data-toggle="collapse" class="collapsed" href="#faq1">Zirve için katılımcılardan ücret alınıyor mu ? <i class="fa fa-minus-circle"></i></a>
-                  <div id="faq1" class="collapse" data-parent="#faq-list">
-                    <p>
-                      Hayır. Ege Savunma Sanayi Zirvesi tüm programları ile her katılımcı için ücretsizdir.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-toggle="collapse" href="#faq2" class="collapsed">Zirve sonunda katılımcılara sertifika verilecek mi ? <i class="fa fa-minus-circle"></i></a>
-                  <div id="faq2" class="collapse" data-parent="#faq-list">
-                    <p>
-                      Evet. Zirve katılımcıları program sonunda Ege Üniversitesi onaylı ve katılımcı ismini içeren bir sertifika almaya hak kazanacaklardır.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-toggle="collapse" href="#faq3" class="collapsed">Ege Üniversitesi mensubu değilim. Zirveye katılabilir miyim ? <i class="fa fa-minus-circle"></i></a>
-                  <div id="faq3" class="collapse" data-parent="#faq-list">
-                    <p>
-                      ESSZ 2022'ye katılımınız için Ege Üniversitesi'ne bağlı öğrenci, öğretim görevlisi veya üniversite çalışanı olmanız gerekmektedir. Ancak zirveden önce katılım isteğiniz ile 
-                      alakalı bizlere İletişim bölümünden ulaşırsanız sizlere yardımcı olmayı çok isteriz.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-toggle="collapse" href="#faq4" class="collapsed">Konferans Programı ile TUSAŞ&TEI Paneli arasındaki fark nedir ? <i class="fa fa-minus-circle"></i></a>
-                  <div id="faq4" class="collapse" data-parent="#faq-list">
-                    <p>
-                      ESSZ Konferans programında savunma sanayi şirketlerinde çalışan konuşmacılarımız, kendi seçtikleri bir konu hakkında konferans kürsüsü üzerinden konuşmalarını ve sunumlarını 
-                      gerçekleştirecek ve konuşma sonunda katılımcıların sorularını cevaplandıracaktır. Konferans konuşmaları bittikten sonra başlayacak olan panelimizde ise bir moderatörün kontrolü ile birlikte 
-                      Türk Uzay ve Havacılığı üzerine seçilecek bir konu üzerinde davetlilerimiz tartışacak ve değerlendirmelerini katılımcılara aktaracaklardır.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-toggle="collapse" href="#faq5" class="collapsed">Zirvenin gerçekleştiği mekan içerisinde ve çevresinde yeme-içme, lavabo gibi ihtiyaçlarım için uygun koşullar bulunuyor mu ?  <i class="fa fa-minus-circle"></i></a>
-                  <div id="faq5" class="collapse" data-parent="#faq-list">
-                    <p>
-                      Evet. Zirvenin gerçekleşeceği MÖTBE Konferans Salonu içerisinde lavabo ihtiyaçlarınızı karşılayıp öğle arasında ise Ege Üniversitesi Kampüsü içerisindeki yemekhane ve kafelerde yiyecek-içecek ihtiyaçlarınızı 
-                      karşılayabilirsiniz.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-toggle="collapse" href="#faq6" class="collapsed">Zirve sonunda ne gibi kazanımlar edinebilirim ? <i class="fa fa-minus-circle"></i></a>
-                  <div id="faq6" class="collapse" data-parent="#faq-list">
-                    <p>
-                      ESSZ, katılımcılarına Türk Savunma Sanayisi hakkında genel bir bilgi dağarcığı katma vizyonunun yanı sıra savunma sanayisinde kullanılan teknolojiler, savunma sanayi ekonomisi ve kültürü,
-                      kariyer fırsatları gibi birçok konuda deneyim kazandırmayı amaçlamaktadır. Bu sebeple katılımınız hem sizin hem de savunma sanayisi ekosistemi için eşsiz bir deneyim olacaktır.
-                    </p>
-                  </div>
-                </li>
-
-              </ul>
-          </div>
-        </div>
-
-      </div>
-
     </section>
 
+      <!--==========================
+      F.A.Q Section
+    ============================-->
+      <section id="faq" class="wow fadeInUp">
+        <div class="container">
+          <div class="section-header">
+            <h2>Sıklıkla Sorulan Sorular</h2>
+          </div>
 
-    <!--==========================
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <ul id="faq-list">
+                <li>
+                  <a data-toggle="collapse" class="collapsed" href="#faq1"
+                    >Zirve için katılımcılardan ücret alınıyor mu ?
+                    <i class="fa fa-minus-circle"></i
+                  ></a>
+                  <div id="faq1" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Hayır. Ege Savunma Sanayi Zirvesi tüm programları ile her
+                      katılımcı için ücretsizdir.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-toggle="collapse" href="#faq2" class="collapsed"
+                    >Zirve sonunda katılımcılara sertifika verilecek mi ?
+                    <i class="fa fa-minus-circle"></i
+                  ></a>
+                  <div id="faq2" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Evet. Zirve katılımcıları program sonunda Ege Üniversitesi
+                      onaylı ve katılımcı ismini içeren bir sertifika almaya hak
+                      kazanacaklardır.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-toggle="collapse" href="#faq3" class="collapsed"
+                    >Ege Üniversitesi mensubu değilim. Zirveye katılabilir miyim
+                    ? <i class="fa fa-minus-circle"></i
+                  ></a>
+                  <div id="faq3" class="collapse" data-parent="#faq-list">
+                    <p>
+                      ESSZ 2022 herkese açık bir etkinliktir. Katılımınız için Ege Üniversitesi'ne bağlı
+                      öğrenci, öğretim görevlisi veya üniversite çalışanı
+                      olmanız gerekmemektedir.
+                    </p>
+                  </div>
+                </li>
+
+          
+
+                <li>
+                  <a data-toggle="collapse" href="#faq6" class="collapsed"
+                    >Zirve sonunda ne gibi kazanımlar edinebilirim ?
+                    <i class="fa fa-minus-circle"></i
+                  ></a>
+                  <div id="faq6" class="collapse" data-parent="#faq-list">
+                    <p>
+                      ESSZ, katılımcılarına Türk Savunma Sanayisi hakkında genel
+                      bir bilgi dağarcığı katma vizyonunun yanı sıra savunma
+                      sanayisinde kullanılan teknolojiler, savunma sanayi
+                      ekonomisi ve kültürü, kariyer fırsatları gibi birçok
+                      konuda deneyim kazandırmayı amaçlamaktadır. Bu sebeple
+                      katılımınız hem sizin hem de savunma sanayisi ekosistemi
+                      için eşsiz bir deneyim olacaktır.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==========================
       Contact Section
     ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
-
-      <div class="container">
-
-        <div class="section-header">
-          <h2>İletişim</h2>
-          <p>Her türlü öneri ve şikayetlerinizi bizlere iletebilirsiniz.</p>
-        </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Adres</h3>
-              <address>Ege Üniversitesi Kampüsü No:172, Erzene Mahallesi, 35040 Bornova/İzmir</address>
-            </div>
+      <section id="contact" class="section-bg wow fadeInUp">
+        <div class="container">
+          <div class="section-header">
+            <h2>İletişim</h2>
+            <p>Her türlü öneri ve şikayetlerinizi bizlere iletebilirsiniz.</p>
           </div>
 
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Telefon</h3>
-              <p><a href="+905354346013">+905354346013</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:egesavtekssz@gmail.com">egesavtekssz@gmail.com</a></p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="form">
-          <div id="sendmessage">Mesajınız tarafımıza iletilmiştir. Teşekkür Ederiz!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm" onsubmit="sendEmail(); reset();">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Ad-Soyad" data-rule="minlen:4" data-msg="Lütfen en az 4 karakter giriniz." />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="E-posta" data-rule="email" data-msg="Lütfen geçerli bir e-posta adresi giriniz." />
-                <div class="validation"></div>
+          <div class="row contact-info">
+            <div class="col-md-4">
+              <div class="contact-address">
+                <i class="ion-ios-location-outline"></i>
+                <h3>Adres</h3>
+                <address>
+                  Ege Üniversitesi Kampüsü No:172, Erzene Mahallesi, 35040
+                  Bornova/İzmir
+                </address>
               </div>
             </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu" data-rule="minlen:4" data-msg="Lütfen en az 8 karakter giriniz." />
-              <div class="validation"></div>
+
+            <div class="col-md-4">
+              <div class="contact-phone">
+                <i class="ion-ios-telephone-outline"></i>
+                <h3>Telefon</h3>
+                <p><a href="+905354346013">+905354346013</a></p>
+              </div>
             </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Bizim için bir şeyler yazabilirsiniz." placeholder="Mesajınız"></textarea>
-              <div class="validation"></div>
+
+            <div class="col-md-4">
+              <div class="contact-email">
+                <i class="ion-ios-email-outline"></i>
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:egesavtekssz@gmail.com"
+                    >egesavtekssz@gmail.com</a
+                  >
+                </p>
+              </div>
             </div>
-            <div class="text-center"><button type="submit">Mesajı Gönder</button></div>
-          </form>
+          </div>
+
+          <div class="form">
+            <div id="sendmessage">
+              Mesajınız tarafımıza iletilmiştir. Teşekkür Ederiz!
+            </div>
+            <div id="errormessage"></div>
+            <form
+              action=""
+              method="post"
+              role="form"
+              class="contactForm"
+              onsubmit="sendEmail(); reset();"
+            >
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="Ad-Soyad"
+                    data-rule="minlen:4"
+                    data-msg="Lütfen en az 4 karakter giriniz."
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="E-posta"
+                    data-rule="email"
+                    data-msg="Lütfen geçerli bir e-posta adresi giriniz."
+                  />
+                  <div class="validation"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="Konu"
+                  data-rule="minlen:4"
+                  data-msg="Lütfen en az 8 karakter giriniz."
+                />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  id="message"
+                  rows="5"
+                  data-rule="required"
+                  data-msg="Bizim için bir şeyler yazabilirsiniz."
+                  placeholder="Mesajınız"
+                ></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center">
+                <button type="submit">Mesajı Gönder</button>
+              </div>
+            </form>
+          </div>
         </div>
+      </section>
+      <!-- #contact -->
+    </main>
 
-      </div>
-    </section><!-- #contact -->
-
-  </main>
-
-
-  <!--==========================
+    <!--==========================
     Footer
   ============================-->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <p>Ege Savunma Teknolojileri Topluluğu (Ege SAVTEK), 2019 yılının Eylül ayında faaliyetlerine başlamış olan; bilim, teknoloji ve inovasyonun öncülüğünde savunma sanayiine yönelik kurulan üniversitemizdeki ilk ve tek öğrenci topluluğudur.</p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Menü</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Anasayfa</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Zirve Hakkında</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Program</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Konuşmacılar</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Ege Savtek</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Yararlı Bağlantılar</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#faq">Sıklıkla Sorulan Sorular</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="https://ege.edu.tr/tr-0/anasayfa.html">Ege Üniversitesi</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="https://www.ssb.gov.tr/">Türk Savunma Sanayi</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">KVKK Bilgilendirme Formu</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Çerez Politikası</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>İletişim</h4>
-            <p>
-              Ege Üniversitesi Kampüsü <br>
-              Makine Mühendisliği Bölümü <br> Merdivenaltı Atölyesi <br> Erzene Mahallesi 35040<br>
-              Bornova/İzmir <br>
-              <strong>Phone: </strong><a href="+905354346013">+905354346013</a><br>
-              <strong>Email: </strong><a href="mailto:egesavtek@gmail.com">egesavtek@gmail.com</a><br>
-            </p>
-
-            <div class="social-links">
-              <a href="https://twitter.com/EgeSavtek" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.facebook.com/egesavtek/" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="https://www.instagram.com/egesavtek/" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="https://www.linkedin.com/company/egesavtek/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-              <a href="https://www.youtube.com/c/EgeSavunmaTeknolojileriToplulu%C4%9Fu/videos" class="youtube"><i class="fa fa-youtube"></i></a>
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-info">
+              <p>
+                Ege Savunma Teknolojileri Topluluğu (Ege SAVTEK), 2019 yılının
+                Eylül ayında faaliyetlerine başlamış olan; bilim, teknoloji ve
+                inovasyonun öncülüğünde savunma sanayiine yönelik kurulan
+                üniversitemizdeki ilk ve tek öğrenci topluluğudur.
+              </p>
             </div>
 
-          </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Menü</h4>
+              <ul>
+                <li>
+                  <i class="fa fa-angle-right"></i> <a href="#">Anasayfa</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="#">Zirve Hakkında</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i> <a href="#">Program</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i> <a href="#">Konuşmacılar</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i> <a href="#">Ege Savtek</a>
+                </li>
+              </ul>
+            </div>
 
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Yararlı Bağlantılar</h4>
+              <ul>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="#faq">Sıklıkla Sorulan Sorular</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="https://ege.edu.tr/tr-0/anasayfa.html"
+                    >Ege Üniversitesi</a
+                  >
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="https://www.ssb.gov.tr/">Türk Savunma Sanayi</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="#">KVKK Bilgilendirme Formu</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="#">Çerez Politikası</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>İLETİSİM</h4>
+              <p>
+                Ege Üniversitesi Kampüsü <br />
+                Makine Mühendisliği Bölümü <br />
+                Merdivenaltı Atölyesi <br />
+                Erzene Mahallesi 35040<br />
+                Bornova/İzmir <br />
+                <strong>Phone: </strong><a href="+905354346013">+905354346013</a
+                ><br />
+                <strong>Email: </strong
+                ><a href="mailto:egesavtek@gmail.com">egesavtek@gmail.com</a
+                ><br />
+              </p>
+
+              <div class="social-links">
+                <a href="https://twitter.com/EgeSavtek" class="twitter"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+                <a href="https://www.facebook.com/egesavtek/" class="facebook"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com/egesavtek/" class="instagram"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/company/egesavtek/"
+                  class="linkedin"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/c/EgeSavunmaTeknolojileriToplulu%C4%9Fu/videos"
+                  class="youtube"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Ege Savtek 2022 | Site, Ege Savtek Yayın Koordinatörlüğü tarafından geliştirilmiştir.
+      <div class="container">
+        <div class="copyright">
+          &copy; Ege Savtek 2022 | Site, Ege Savtek Yayın Koordinatörlüğü
+          tarafından geliştirilmiştir.
+        </div>
       </div>
-    </div>
-  </footer><!-- #footer -->
+    </footer>
+    <!-- #footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/venobox/venobox.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/venobox/venobox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
 
-  <!-- SMTPJS Contact Form -->
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script>
-    function sendEmail(){
-      // Email.send({
-      // SecureToken: "4ac6e661-5011-4354-a87c-1a9b20509b0b",
-      // To : 'uslanyaramazov@gmail.com',
-      // From : document.getElementById("email").value,
-      // Subject : document.getElementById("email").value,
-      // Body : "Ad-Soyad : " + document.getElementById("name").value
-      // + "<br> E-posta : " + document.getElementById("email").value
-      // + "<br> Mesaj : " + document.getElementById("message").value
-      // }).then(
-      // message => alert("Mesajınız tarafımıza gönderilmiştir. Teşekkür ederiz !")
-      // );
-      Email.send({
-        Host: "smtp.google.com",
-        Username: "egesavtekssz@gmail.com",
-        Password: "sszsavtekege22",
-        To: 'egesavtekssz@gmail.com',
-        From: document.getElementById("email").value,
-        Subject: document.getElementById("subject").value,
-        Body: "Ad-Soyad : " + document.getElementById("name").value
-        + " <br> E-posta : " + document.getElementById("email").value
-        + " <br> İleti : " + document.getElementById("message").value
-      }).then(
-        message => alert("Mesajınız tarafımıza iletilmiştir. Teşekkürler! ")
-      );
-    }
+    <!-- SMTPJS Contact Form -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      var countDownDate = new Date("May 24, 2022 11:00:00").getTime();
 
-  </script>
-</body>
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        // Get today's date and time
+        var now = new Date().getTime();
 
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML = "Zirveye Son " +
+          days + " Gün " + hours + " Saat " + minutes + " Dakika " + seconds + " Saniye Kaldı!";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+
+      function sendEmail() {
+        // Email.send({
+        // SecureToken: "4ac6e661-5011-4354-a87c-1a9b20509b0b",
+        // To : 'uslanyaramazov@gmail.com',
+        // From : document.getElementById("email").value,
+        // Subject : document.getElementById("email").value,
+        // Body : "Ad-Soyad : " + document.getElementById("name").value
+        // + "<br> E-posta : " + document.getElementById("email").value
+        // + "<br> Mesaj : " + document.getElementById("message").value
+        // }).then(
+        // message => alert("Mesajınız tarafımıza gönderilmiştir. Teşekkür ederiz !")
+        // );
+        Email.send({
+          Host: "smtp.google.com",
+          Username: "egesavtekssz@gmail.com",
+          Password: "sszsavtekege22",
+          To: "egesavtekssz@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: document.getElementById("subject").value,
+          Body:
+            "Ad-Soyad : " +
+            document.getElementById("name").value +
+            " <br> E-posta : " +
+            document.getElementById("email").value +
+            " <br> İleti : " +
+            document.getElementById("message").value,
+        }).then((message) =>
+          alert("Mesajınız tarafımıza iletilmiştir. Teşekkürler! ")
+        );
+      }
+    </script>
+  </body>
 </html>
